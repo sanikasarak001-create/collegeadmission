@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MYCollegePath</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="predict">Predict Colleges</string>
+    <string name="logout">Logout</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="profile">My Profile</string>
+    <string name="enter_marks">Enter Your Marks</string>
+    <string name="percentage_hint">Enter your 12th percentage (0–100)</string>
+    <string name="category_hint">Select Category</string>
+    <string name="back">← Back</string>
+    <string name="no_results">No colleges found for your score.</string>
+    <string name="save">Save</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="initial_placeholder">\?</string>
+</resources>

@@ -1,0 +1,108 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!--  Internet Permission  -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CollegeAdmission"
+        android:usesCleartextTraffic="true">
+        <!--  Splash Screen  -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.CollegeAdmission.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--  Other Activities  -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CollegeAdmission.NoActionBar" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CollegeAdmission.NoActionBar" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CollegeAdmission.NoActionBar" />
+        <activity
+            android:name=".PredictActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CollegeAdmission.NoActionBar" />
+        <activity
+            android:name=".ResultActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CollegeAdmission.NoActionBar" />
+        <activity
+            android:name=".CollegeDetailActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CollegeAdmission.NoActionBar" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CollegeAdmission.NoActionBar" />
+        <activity
+            android:name=".BookmarkActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CollegeAdmission.NoActionBar" />
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CollegeAdmission.NoActionBar" />
+        <activity
+            android:name=".BrowseActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CollegeAdmission.NoActionBar" />
+        <activity
+            android:name=".DeadlineActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CollegeAdmission.NoActionBar" />
+        <activity
+            android:name=".EntranceExamActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CollegeAdmission.NoActionBar" />
+        <activity
+            android:name=".CutoffTrendActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CollegeAdmission.NoActionBar" />
+        <activity
+            android:name=".FeeStructureActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CollegeAdmission.NoActionBar" />
+        <activity
+            android:name=".ScholarshipActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CollegeAdmission.NoActionBar" />
+        <activity
+            android:name=".RankingActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CollegeAdmission.NoActionBar" />
+        <activity
+            android:name=".ChecklistActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CollegeAdmission.NoActionBar" />
+        <activity
+            android:name=".AiCounsellorActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CollegeAdmission.NoActionBar" />
+        <activity
+            android:name=".NearMeActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CollegeAdmission.NoActionBar" />
+        <activity
+            android:name=".EnhancedProfileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.CollegeAdmission.NoActionBar" />
+    </application>
+</manifest>
